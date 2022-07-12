@@ -577,3 +577,13 @@ ul {
 .section8-top {
     padding-left: 40px;
 }
+
+.section8-bottom {
+    display: flex;
+    padding-top: 10px;
+}
+
+.section8-review {
+    display: block;
+    padding-top: 20px;
+}
