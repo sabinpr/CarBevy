@@ -81,6 +81,7 @@ ul {
  .logo {
     height: 40px;
     padding: 30px 8%;
+    margin-right: 110px;
 
 }
 
@@ -96,6 +97,17 @@ ul {
     color: #444444;
     border: 0px;
     margin: 0px;
+}
+.about-drop{
+    text-decoration: none;
+    padding-right: 70px;
+    color: #444444;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    margin-top: 10px;
 }
 
 .dropdown {
@@ -456,6 +468,15 @@ ul {
     height: 820px;
     padding-top: 100px;
 }
+.section3 ul{
+    display: block;
+}
+.section3 ul li{
+    display: flex;
+}
+.section3 h3,.section3 p{
+    text-align: left;
+}
 
 .section3-main {
     display: flex;
@@ -652,4 +673,85 @@ ul {
 .section9-content-image2 a{
     color: #FF5310;
     padding-left: 74%;
+}
+
+.section1 p{
+    text-align: left;
+}
+
+.section1 a{
+    text-decoration: none;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #231F20;
+}
+
+.search-box {
+    height: 150px;
+    width: 700px;
+}
+
+.search-box ul li {
+    padding: 14px 20px;
+    border-top: #FF5310 1px solid;
+    border-right: #FF5310 1px solid;
+    border-left: #FF5310 1px solid;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.search-box ul{
+    margin-bottom: 0px;
+}
+
+.search-box a {
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #888E92;
+    
+}
+
+.search-box input{
+    padding: 22px 20px;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    width: 380px;
+}
+.search-box button{
+    background: #FF5310;
+    border: 2px solid #FF5310;
+    box-shadow: 0px 8px 14px rgba(255, 83, 16, 0.25);
+    border-radius: 10px;
+    padding: 13px 30px;
+    color: #FFFFFF;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-box button:hover {
+    background: #f2703c;
+}
+
+.search-box button:active {
+    background-color: #f2703c;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+.form-content {
+    padding: 10px;
+    margin: 0px 40px;
+    background-color: #FFFFFF;
+    border: #FF5310 1px solid;
+    border-radius: 5px;
+    
 }
