@@ -518,10 +518,15 @@ ul {
 .section9 {
     padding-top: 100px;
     height: 780px;
-    padding-left: 8%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
 .section9-top h2{
     text-align: left;
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 40px;
 }
 
 .section9-top a{
@@ -535,12 +540,17 @@ ul {
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
+    margin-left: 72%;
 }
 
 .section8 {
-    height: 560px;
+    height: 480px;
     padding-left: 8%;
-    padding-right: 8%;
+    padding-right: 6%;
+}
+
+.section8 h2 {
+    padding-bottom: 60px;
 }
 .section8 ul {
     padding-top: 50px 40px;
@@ -586,4 +596,60 @@ ul {
 .section8-review {
     display: block;
     padding-top: 20px;
+}
+.section9-content {
+    margin-top: 80px;
+}
+.section9-content-image1 {
+    background-image: url('rect1.png');
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 826px;
+    margin-right: 20px;
+    border: #000000;
+    color: #FFFFFF;
+    padding-top: 240px;
+}
+.section9-content-image1 h3,.section9-content-image2 h3 ,.section9-content-image2 p, .section9-content-image1 p{    
+    color: #FFFFFF;
+}
+
+.section9-content-image2 {
+    background-image: url('rect2.png');
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 406px;
+    border: #000000;
+    color: #FFFFFF;
+    
+    padding-top: 200px;
+}
+
+.section9-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 138.3%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section9-content h3 {
+    font-family: 'Averia Gruesa Libre';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 131.5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section9-content-image1 a{
+    color: #FF5310;
+    padding-left: 87%;
+}
+.section9-content-image2 a{
+    color: #FF5310;
+    padding-left: 74%;
 }
